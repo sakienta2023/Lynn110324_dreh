@@ -15,7 +15,7 @@ header {
     right: 0;
     z-index: 1000;
     display: flex;
-    background-color: red;
+    /* background-color: red; */
     align-items: center;
     justify-content: space-between;
     padding: 22px 12%;
@@ -86,4 +86,41 @@ header {
     color: #212832;
     cursor: pointer;
     display: none;
+}
+
+section {
+    padding: 60px 12px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../drehSpensa/IMG-20240311-WA0012.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.home-img img {
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+}
+
+.home-text h4 {
+    color: #d46951;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.home-text h1 {
+    color: #181e48;
+    font-size: 65px;
+    font-family: 'Volkhov';
+    font-weight: 700;
 }
