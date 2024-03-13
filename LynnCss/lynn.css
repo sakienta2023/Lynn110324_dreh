@@ -59,3 +59,31 @@ header {
 .navmenu li a:hover::after {
     width: 100px;
 }
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn {
+    font-size: 17px;
+    color: #212832;
+    font-weight: 500px;
+    border: 2px solid #212832;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: all .42s;
+}
+
+.nav-btn:hover {
+    background-color: #212832;
+    color: #fff;
+}
+
+#menu-icon {
+    font-size: 35px;
+    color: #212832;
+    cursor: pointer;
+    display: none;
+}
