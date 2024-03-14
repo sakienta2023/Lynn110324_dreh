@@ -123,4 +123,32 @@ section {
     font-size: 65px;
     font-family: 'Volkhov';
     font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.04em;
+    margin-bottom: 18px;
+}
+
+.home-text p {
+    color: #5e6282;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+    
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.btn1 {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff; /*come back later */
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: #f1a501;
+    border-radius: 10px;
 }
