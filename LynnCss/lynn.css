@@ -151,4 +151,40 @@ section {
     padding: 10px 20px;
     background: #f1a501;
     border-radius: 10px;
+    margin-right: 40px;
+    transition: all .42s;
+}
+
+.btn1:hover:hover {
+    transform: translateY(-5px);
+}
+
+.btn2 {
+    color: #686d77;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2 span i {
+    width: 52px;
+    height: 52px;
+    background: #df6951;
+    color: #fff;
+    display: inline-flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+    margin-right: 15px;
+    transition: all .42s;
+}
+
+.btn2 span i:hover {
+  background: transparent;  
+  color:#212832;
 }
