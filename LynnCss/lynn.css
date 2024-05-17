@@ -309,3 +309,31 @@ header.sticky {
     text-transform: capitalize;
 }
 
+.text-in p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.coun-text {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.box h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ho-img {
+    overflow: hidden;
+}
+
+.ho-img:hover img{
+    transform: scale(1.1);
+    filter: brightness(50%) hue-rotate(45deg);
+
+}
