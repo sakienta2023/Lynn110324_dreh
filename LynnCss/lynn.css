@@ -301,3 +301,11 @@ header.sticky {
     bottom:25px;
     left: 20px;
 }
+
+.text-in h5 {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
