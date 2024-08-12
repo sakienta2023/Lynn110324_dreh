@@ -335,5 +335,9 @@ header.sticky {
 .ho-img:hover img{
     transform: scale(1.1);
     filter: brightness(50%) hue-rotate(45deg);
-
+}
+.test-text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
 }
