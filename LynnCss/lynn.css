@@ -341,3 +341,25 @@ header.sticky {
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
+
+.left h4 {
+    color: #5e6282;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.left h3{
+    font-size: 50px;
+    color: #14183e;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'volkhov';
+}
+
+.rights img {
+    max-width: 100%;
+    
+}
