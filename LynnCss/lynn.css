@@ -361,5 +361,47 @@ header.sticky {
 
 .rights img {
     max-width: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.rights h5 {
+    color: #5e6282;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 3px; 
+}
+
+.rights h6 {
+    color: #5e6282;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rights p {
+    color: #5e6282;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* air-office */
+
+.air-office {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.office-name {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,auto));
+    gap: 3rem;
+    align-items: center;
+}
+
+.office-name img {
     
 }
