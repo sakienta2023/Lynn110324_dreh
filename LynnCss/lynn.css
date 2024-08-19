@@ -412,3 +412,27 @@ header.sticky {
 .office-name img:hover {
     transform: translateY(-5px);
 }
+
+/* contact-section */
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 2rem;
+    align-items: center;
+}
+
+.first-info img {
+    max-width: 100%;
+    width: 120px;
+    height: auto;
+}
+.first-info h6 {
+    color: #5e6282;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .42s;
+}
