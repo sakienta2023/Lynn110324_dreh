@@ -436,3 +436,43 @@ header.sticky {
     cursor: pointer;
     transition: all .42s;
 }
+
+.first-info h6:hover {
+    color: #d46951;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    color: #080809;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    color: #5e6282;
+    font-size: 15px;
+    font-weight: 500px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: all 0.42s;
+}
+
+.contact-info p:hover{
+    color: #d46951;
+}
+
+.fifth-info .icon a{
+    color: #000;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+}
+ /* timestamp 49 */
