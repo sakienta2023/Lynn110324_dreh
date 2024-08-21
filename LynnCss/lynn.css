@@ -474,5 +474,145 @@ header.sticky {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+    margin-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.42s;
 }
- /* timestamp 49 */
+
+.fifth-info .icon .grad-icon {
+    background: linear-gradient(#ef32d9, #89fffd);
+    color: #fff;
+}
+
+.fifth-info .icon a:hover {
+    transform: scale(1.1);
+}
+
+.fifth-info h5{
+    color: #5e6282;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.42s;
+}
+
+.fifth-info h5:hover {
+   color: #d46951; 
+}
+
+.img-info {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.end-text {
+    text-align: center;
+    background-color: #181e48;
+    padding: 20px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+
+/* Responsive Design */
+
+@media(max-width:1265px){
+    header {
+        padding: 25px;
+        transition: .3s;
+    }
+    section{
+        padding: 60px 4%;
+        transition: .3s;
+    }
+}
+
+@media(max-width:1050px){
+    .home{
+        grid-template-columns: 1fr;
+        height: 100%;
+        transition: .3s;
+    }
+    .home-text {
+        padding-top: 100px;
+        text-align: center;
+        transition: .3s;
+    }
+    .home-img {
+        padding-top: 50px;
+        transition: .3s;
+    }
+}
+
+@media(max-width:1180px){
+    .home-text h1 {
+        font-size: 56px;
+        transition: .3s;
+    }
+    .home-text h4 {
+        font-size: 18px;
+        transition: .3s;
+    }
+    .home-text p {
+        font-size: 15px;
+        transition: .3s;
+    }
+}
+
+@media(max-width:415px){
+    .home-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+        transition: .3s;
+    }
+
+    .home-text p {
+        font-size: 12px;
+        transition: .3s;
+    }
+}
+
+@media(max-width:1000px){
+    .test-text{
+        grid-template-columns: 1fr;
+        height: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+}
+
+@media(max-width:970px){
+    #menu-icon{
+        display: block;
+    }
+    .navmenu{
+        position: absolute;
+        top: -600%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #fff1da;
+        text-align: left;
+        transform: all .42s;
+    }
+    .navmenu a{
+        display: block;
+        padding: 16px;
+        margin:8px;
+        border-left: 2px solid #212832;
+    }
+
+    .navmenu.open {
+
+    }
+}
